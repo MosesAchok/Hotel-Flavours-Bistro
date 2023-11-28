@@ -1,0 +1,551 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+.menu-bar{
+    background:rgb(146, 13, 13);
+    text-align: right;
+    margin-bottom: 20px;
+    
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style-type: none;
+    color:#fff;
+    
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 10px;
+    padding: 10px;    
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+active, .menu-bar ul li:hover{
+    background: #f70511;
+    border-radius: 3px;
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color: rgb(146,13,13);
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color: #b2ff00;
+}
+.section-top{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    background-image: url(/Assets/pexels-abbas-mohammed-3680912.jpg);
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation:  change 20s infinite  ease-in-out;
+    background-attachment: fixed;
+
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    color: #fff;
+}
+.content a{
+    background: rgb(235, 75, 75);
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border: 20px;
+}
+.content a:hover{
+    background: #fa0915;
+    color: #fff;
+}
+@keyframes change{
+    20%
+    {
+        background-image: url(/Assets/confrence1.jpg);
+    }
+    
+}
+#top-1{
+    width: 100%;
+    text-transform: uppercase;
+    min-height: 50px;
+    line-height: 50px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#about-top{
+    
+    height:500px ;
+    
+    margin-bottom: 20px;
+    
+}
+.containerflex{
+    
+    width: 100%;
+    height: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .left-image {
+    flex: 1;
+    max-width: 48%;
+    margin-right: 2%; /* Add some space between image and text */
+  }
+  
+  .right-text {
+    flex: 1;
+    max-width: 48%;
+    line-height: 35px;
+  }
+  #sec-1{
+    min-height: 400px;
+    
+
+  }
+  .container{
+    width: 100%;
+    min-height: 500px;
+    background:;
+    
+}
+#left{
+    width: 49%;
+    min-height: 450px;
+    float: left;
+    margin-top: 10px;
+}
+    
+
+#right{
+    width: 49%;
+    min-height: 300px;
+    background: ;
+    float: right;
+    margin-top:10px ;
+    justify-content: center;
+    line-height: 35px;
+    
+    
+}
+.aboutimages {
+    width: 35%; 
+    float: right; 
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.right-image {
+    width: 100%; 
+    margin-bottom: 10px; 
+}
+.aboutimage {
+    width: 20%; 
+    float: right; 
+    margin-right:  20px;
+}
+
+.right-image {
+    width: 100%;
+    margin-bottom: 10px;
+}
+#center{
+    width: 49%;
+    float: right
+    text-align:center;
+    
+
+}
+.right-txt{
+    justify-content: center;
+    line-height: 43px;
+}
+    
+ 
+.gallery{
+    padding: 2rem 7%;
+
+}
+.gallery h1{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    padding: 2rem;
+}
+.gallery h1 span{
+    color: var(--maincolor);
+}
+.main-gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.inner-gallery img{
+    width: 100%;
+}
+
+
+.inner-gallery {
+  position: relative;
+}
+.inner-gallery:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: blue;
+  width: 100%;
+  height: 100%;
+  opacity: .1;
+  
+}
+.inner-gallery i{
+    position: absolute;
+    font-size: 2rem;
+    top: 50%;
+    left: 50%;
+    color: black;
+    z-index: 10000;
+} 
+#sec-1{
+    min-height: 400px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.container-1{
+    width: 49%;
+    min-height: 400px;
+    float: left;
+}
+.container-2{
+    width: 49%;
+    min-height: 400px;
+    float:right;
+    
+}
+.left-img{
+    max-width: 89%;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.container-1h{
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.container-1txt{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container-1a{
+    text-align: center;
+    min-height: 80px;
+    
+    
+}
+
+.learn-more-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: maroon;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+
+.learn-more-button:hover {
+    background-color: darkred;
+}
+
+#sec-2{
+    
+    min-height: 250px;
+    width: 100%;
+    margin: auto;
+    padding-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.sec-2rooms{
+    background: #070000;
+    width: 90%;
+    min-height: 200px;
+    justify-content: center;
+    margin-top: 40px;
+}
+#sec-2 h2{
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+    padding-top: 40px;
+    
+}
+.sec-2rooms hr{
+    width: 15%;
+    justify-items: center;
+    margin-bottom: 20px;
+    margin: auto;
+    border-width: 1.5px;
+    color: maroon;
+}
+.sec-2rooms p{
+    text-align: center;
+    color: #fff;
+    
+}
+
+.h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+#sec-3{
+    max-width: 100%;
+    min-height: 600px;
+    margin-top: 20px;
+}
+.container-3{
+    width: 49%;
+    float: left;
+    min-height: 500px;
+}
+.ourmenu{
+    margin-top: 10px;
+    text-align: center;
+}
+.menuimg{
+    background:red;
+    min-height: 500px;
+    background: url(/Assets/food1.jpg);
+    margin-left: 20px;
+    margin-right: 20px;
+    animation: change1  infinite 10s ease-in;
+}
+@keyframes change1{
+    0%
+    {
+        background: url(/Assets/special-dish-banner.jpg);
+    }
+    20%
+    {
+        background: url(/Assets/restaurant2.jpg);
+    }
+}
+.container-4{
+    float: right;
+    width: 49%;
+    min-height: 500px;
+}
+.HotelFAQS{
+    text-align: center;
+    margin-top: 20px;
+}
+.faqs-1{
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.faqs-2{
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.faqs-3{
+    padding-left: 20px;
+    margin-top: 20px;
+}
+#accom-top{
+    width: 100%;
+    min-height: 200px;
+    background: #F0F0F0;
+    text-align: center;
+    line-height: 200px;
+    }
+    #accom-sec1{
+        width: 100%;
+        min-height: 900px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #accom-sec1 div{
+        height: 870px;
+        width: 32%;
+        margin: 20px;
+        text-align: center;
+    }
+    .standardsuite {
+        text-align: left;
+        font-weight: bold;
+    }
+    .standardsuite h2{
+        text-align: left;
+        font-weight: bold;
+        padding-left: 20px;
+    }
+    .standardsuite h4{
+        text-align: left;
+        font-weight: bold;
+        padding-left: 20px;
+    }
+    .deluxe {
+        text-align: left;
+        font-weight: bold;
+    }
+    .deluxe h2{
+        text-align: left;
+        font-weight: bold;
+        padding-left: 20px;
+    }
+    .deluxe h4{
+        text-align: left;
+        font-weight: bold;
+        padding-left: 20px;
+    }
+    .twinsuite {
+        text-align: left;
+        font-weight: bold;
+    }
+    .twinsuite h2{
+        text-align: left;
+        font-weight: bold;
+        padding-left: 20px;
+    }
+    .twinsuite h4{
+        text-align: left;
+        font-weight: bold;
+        padding-left: 20px;
+    }
+    #accom-sec2{
+        width: 100%;
+        min-height: 900px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #accom-sec2 div{
+        height: 870px;
+        width: 32%;
+        margin: 20px;
+        text-align: center;
+        
+    }
+    .executivesuite {
+        text-align: left;
+        font-weight: bold;
+    }
+    .executivesuite h2{
+        text-align: left;
+        font-weight: bold;
+        padding-left: 20px;
+    }
+    .executivesuite h4{
+        text-align: left;
+        font-weight: bold;
+        padding-left: 20px;
+    }
+    .honeymoonerssuite {
+        text-align: left;
+        font-weight: bold;
+    }
+    .honeymoonerssuite h2{
+        text-align: left;
+        font-weight: bold;
+        padding-left: 20px;
+    }
+    .honeymoonerssuite h4{
+        text-align: left;
+        font-weight: bold;
+        padding-left: 20px;
+    }
+    .time-p{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .rooms-cost {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: maroon;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        transition: background-color 0.3s;
+    }
+    .view-rooms{
+        background: rgb(235, 75, 75);
+        padding: 10px 24px;
+        text-decoration: none;
+        font-size: 18px;
+        border: 20px;
+    }
+    .view-rooms:hover{
+        background: #fa0915;
+        color: #fff;
+    }
+    .footer {
+        width: 100%;
+        height: 400px;
+        background-color: #333;
+        color: #fff; 
+        text-align: center; 
+        padding: 10px; 
+        display: flex;
+        
+    }
+    .footer div{
+        height: 300px;
+        width: 32%;
+        margin: 20px;
+        text-align: center;
+        background: green;
+               
+    }
