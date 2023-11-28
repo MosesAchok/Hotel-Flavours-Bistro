@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>webproject</title>
+        <link rel="stylesheet" href="stylek.css">
+    </head>
+    <body>
+        <div class="menu-bar">
+
+            <img  src="Assets/logo fb.png" class="logo">
+        <ul>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="About Us.html">About Us</a></li>
+            <li><a href="Accomodation.html">Accomodation</a></li>
+            <li><a href="Services.html">Services</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="Contact.html">Contact </a></li>
+        </ul>
+        </div>
+        <script>
+            var member
+            window.confirm('please confirm if you are a memebr of the shopping club')
+            if(member)
+            window.alert('welcome to the shopping club')
+            else
+window.alert('You can not shop here unless you are a member of a Shopping Club') 
+
+        </script>
+        <div class="section-top">
+            <div class="content">
+                <h1>Flavours Bistro</h1><br>
+                <a href="#">Welcome</a>
+            </div>
+        </div>
+        
+           <section id="sec-1">
+            <div class="container-1">
+                <div class="container-1h"><h2>Welcome to Hotel Flavours Bistro</h2></div>
+                <div class="container-1txt"><p>Discover the magic of Kenya at Hotel Flavours Bistro.
+                    Welcome to Kitui and to Hotel Flavours Bistro,<br> A perfect choice hotel for both business and leisure travelers. <br>It’s the place to relax and unwind.</p></div>
+                <div class="container-1a">
+                   <a href="#" class="learn-more-button">Learn More</a>
+                </div>
+            </div>
+            <div class="container-2">
+                <img src="Assets/food1.jpg" alt="image" class="left-img">
+            </div>
+           </section>
+           <section id="sec-2">
+            <div class="sec-2rooms">
+                <div class="h2"><h2>Our Rooms</h2>
+                <hr></div>
+                <p>Discover a life of comfort, design and luxury. Flavours Bistro offers an array of dedicated choices for every guest. Our guests will<br> always find the most tailored option to make their stay in Kitui the greatest one of them all</p>
+            </div>
+           </section>
+           <section id="sec-3">
+            <div class="container-3">
+                <div class="ourmenu"><h2>Our Menu</h2>
+                    
+                
+                </div>
+                <div class="menuimg">
+                    
+                </div>
+            </div>
+           <div class="container-4">
+            <div class="hotelfaqs"><h2>Hotel FAQS</h2></div>
+            
+                <div class="faq">
+                    <div class="question">
+                        <i class="icon fas fa-plus"></i>Can I cancel my reservation?
+                    </div>
+                    <div class="answer">
+                        Yes, you can cancel your reservation up to 24 hours before your check-in date without any charge.
+                    </div>
+                </div>
+                <div class="faq">
+                    <div class="question">
+                        <i class="icon fas fa-plus"></i>Is breakfast included in all standard rooms?
+                    </div>
+                    <div class="answer">
+                       Yes, breakfast is included in all room packages.
+                    </div>
+                </div>
+        
+                <div class="faq">
+                    <div class="question">
+                        <i class="icon fas fa-plus"></i>Do you offer airport shuttle service?
+                    </div>
+                    <div class="answer">
+                        We provide complimentary airport shuttle service to and from the nearest airport. Please check with us for more details.
+                    </div>
+                </div>
+        
+                <div class="faq">
+                    <div class="question">
+                        <i class="icon fas fa-plus"></i>Is breakfast included in the room rate?
+                    </div>
+                    <div class="answer">
+                        Yes, a continental breakfast is included in the room rate for all our guests.
+                    </div>
+                </div>
+        
+                <div class="faq">
+                    <div class="question">
+                        <i class="icon fas fa-plus"></i>What is your check-in/check-out time?
+                    </div>
+                    <div class="answer">
+                        Check-in time is at 3:00 PM, and check-out time is at 12:00 PM.
+                    </div>
+                </div>
+            </div>
+            <script>
+                const faqElements = document.querySelectorAll('.faq');
+        
+                faqElements.forEach(faq => {
+                    faq.addEventListener('click', () => {
+                        faq.classList.toggle('open');
+                    });
+                });
+            </script>
+           
+            </div>
+           </section>       
+           <section id="bottom">
+            <div class="footer">
+                <div class="fsec-1">
+                    <h2>Hotel Flavours Bistro</h2>
+                    <h4>Find us on various social media platforms and dont forget to hit that like subscribe nd follow button</h4>
+                </div>
+                <div class="fsec-2">
+                    <h2>contact</h2>
+                    <h4>Off Biashara Street</h4><hr>
+                    <h4>+254 702 020 020</h4><hr>
+                    <h4>bokings@hotelflavoursbisro.co.ke</h4><hr>
+                    <p>&copy; 2023 Flavours Bistro</p>
+                </div>
+                <div class="fsec-3">
+                    <h2>NEWSLETTER</h2>
+                    <h4>To get  the latest news and offers from us drop your name nd email address and hit that subcribe button</h4>
+                    <form>
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname"requred><br>
+                        <label for="Email">Email:</label><br>
+                        <input type="Email" id="lname" name="lname"><br>
+                        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                        By continuing, You accept the privacy policy<br>
+                        <button type="button" id="subscribeButton" style="background-color:maroon; color: #fff; padding: 10px 20px; border: none; cursor: pointer;">Subscribe</button>
+
+
+                      </form>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+              
+    </body>
+</html>

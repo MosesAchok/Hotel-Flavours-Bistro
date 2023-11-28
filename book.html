@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>booking form</title>
+    <link rel="stylesheet" href="stylek.css">
+</head>
+<body>
+    <form id = "form" action = "insert.php" method = "POST">
+        <div id = "form1">
+            <h2>Book a room</h2>
+            <div >
+                <input type= "text"placeholder = "name"required>
+                <input type= "email"placeholder = "Email" required>
+                <div id= "radio"><label>Select Gender:</label></div>
+            
+            <div id= "radio"><input type = "radio"name = "rd"value =   "Male">male</div>
+            <div id= "radio"><input type = "radio"name = "rd" value="female">female</div>
+            </div>
+            <label>Room No:</label>
+            <input type = "number" placeholder="Enter Room number" required>
+            <label>Duration:</label>
+            <input type = "number" placeholder="Enter duration in hrs"required >
+
+            <button type = "submit">submit</button>
+
+            </div>
+        </div>
+    </form>
+</body>
+</html>
